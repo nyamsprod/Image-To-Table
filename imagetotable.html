@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="/test/general.css">
+<!--[if lt IE 9]><script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<meta name="msapplication-task" content="name=About Me;action-uri=http://www.nyamsprod.com/blog/nyamagana/;icon-uri=http://www.nyamsprod.com/images/info.ico">
+<title>convert an image into a table</title>
+</head>
+<body>
+
+<article class="entry">
+
+<header role="banner">
+<h1>Converting an image into a table using the canvas tag</h1>
+</header>
+
+<div class="entry-content">
+<p> In order to convert and image into a table you browser needs to support</p>
+<ul>
+	<li id="support_file"><a href="https://developer.mozilla.org/en/DOM/FileReader" title="MDN Documentation on the FileReader API" target="_blank">the fileReader API</a>
+	<li id="support_canvas"><a href="https://developer.mozilla.org/en/Canvas_tutorial" title="MDN Documentation on the Canvas API">the canvas API</a>
+	<li id="support_data_image"><a href="https://developer.mozilla.org/En/HTML/Canvas/Pixel_manipulation_with_canvas" title="MDN Manipulations on Manipulating Canvas Pixels" target="_blank">Pixel Manipulation with Canvas</a>
+</ul>
+
+<div id="experience">
+	<div id="question">
+		<p><label> Choose an image file on your computer :<br><input type="file" id="src"></label></p>
+		<p>
+			Or <span id="dropzone">drag and drop a file here</span><br>
+			<em>To get the best result use small images or your browser may freeze or die on you!!</em>
+		</p>
+
+	</div>
+
+	<div id="response">
+		<p>Without uploading the file to my server I can render it using a html table (with some help from the canvas tag)</p>
+		<div></div>
+		<p><textarea></textarea></p>
+	</div>
+</div>
+
+<aside class="sharethis">
+<span>Partager cette page via:</span>
+<ul>
+<li><a class="twitter" title="partager sur twitter" target="_blank" href="http://www.twitter.com/share?text=Demo+Image+to+Table+Using+Canvas+http://www.nyamsprod.com/test/imgtotable.html&amp;url=http://www.nyamsprod.com/test/imgtotable.html&amp;counturl=http://www.nyamsprod.com/test/imgtotable.html&amp;via=nyamsprod"><span>twitter</span></a>
+<li><a class="facebook" title="partager sur facebook" target="_blank" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fnyamsprod.com%2Ftest%2Fimgtotable.html"><span>facebook</span></a>
+</ul>
+</aside>
+<footer>brought to you by <a href="/">nyamsprod</a><br><a href="http://www.twitter.com/nyamsprod" target="_blank">You can follow me on twitter</a></footer>
+</article>
+<script src="imgtotable.js"></script>
+</body>
+</html>
